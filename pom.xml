@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  
+  <repository>
+    <id>MavenDemo</id>
+    <url>https://pkgs.dev.azure.com/maciejgawryla/pipelines-java/_packaging/Java/maven/v1</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>true</enabled>
+    </snapshots>
+  </repository>
+	
   <modelVersion>4.0.0</modelVersion>
   <groupId>helloworld</groupId>
   <artifactId>helloworld</artifactId>
